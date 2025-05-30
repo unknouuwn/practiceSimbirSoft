@@ -47,7 +47,7 @@ body {
 
   font-weight: 700;
   font-size: 18px;
-  color: #3f2aff;
+  background-color: #3f2aff;
 }
 
 .link-download {
@@ -76,6 +76,10 @@ body {
 .header-text {
   margin-top: 0;
   margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  color: #333;
 }
 
 .contents, .subtitle {
@@ -94,6 +98,11 @@ body {
   width: 872px;
   margin-top: 0;
   margin-bottom: 40px;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
 }
 
 .gray-box {
