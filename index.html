@@ -5,16 +5,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lionic</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <header class="header">
-    <div class="container">
+    <div class="container flex header-container">
       <a href="#" class="header-logo">
         <img src="image/logo.svg" alt="Logo" class="header-logo" />
       </a>
       <nav class="header-nav">
-        <ul class="header-list">
+        <ul class="header-list list-reset flex">
           <li class="header-list-item">
             <a href="#" class="header-link"> Home </a>
           </li>
@@ -35,14 +37,14 @@
           </li>
         </ul>
       </nav>
-      <button class="btn header-btn">Free trial</button>
+      <button class="btn header-btn btn-reset">Free trial</button>
     </div>
   </header>
 
   <main class="main">
     <section id="hero" class="hero">
       <div class="container">
-        <div class="hero-content">
+        <div class="hero-content flex">
           <h1 class="hero-title">
             This is&nbsp;simply a&nbsp;smarter way to&nbsp;make your legal
             online
@@ -51,21 +53,21 @@
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
             nonummy nibh euismod tincidunt ut&nbsp;laoreet dolore.
           </p>
-          <button class="btn hero-btn">FREE 30&nbsp;DAY TRIAL</button>
+          <button class="btn hero-btn btn-reset">FREE 30&nbsp;DAY TRIAL</button>
           <span class="hero-secure"> SSL secured connection </span>
         </div>
       </div>
     </section>
 
-    <section id="services" class="services">
+    <section id="services" class="services section-offset">
       <div class="container">
         <h2 class="section-title services-title">Services</h2>
         <p class="section-descr services-descr">
           Lionic guides you on&nbsp;making decisions for all aspects
           of&nbsp;your end-of-life plans.
         </p>
-        <ul class="services-items">
-          <li class="services-item">
+        <ul class="services-items list-reset flex">
+          <li class="services-item flex">
             <svg class="services-item-icon" width="68" height="66" viewBox="0 0 68 66" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_7_34)">
@@ -85,7 +87,7 @@
               diam nonummy
             </p>
           </li>
-          <li class="services-item">
+          <li class="services-item flex">
             <svg class="services-item-icon" width="86" height="64" viewBox="0 0 86 64" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
@@ -98,7 +100,7 @@
               diam nonummy
             </p>
           </li>
-          <li class="services-item">
+          <li class="services-item flex">
             <svg class="services-item-icon" width="64" height="64" viewBox="0 0 64 64" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_7_58)">
@@ -118,7 +120,7 @@
               diam nonummy
             </p>
           </li>
-          <li class="services-item">
+          <li class="services-item flex">
             <svg class="services-item-icon" width="65" height="65" viewBox="0 0 65 65" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_7_69)">
@@ -142,144 +144,146 @@
       </div>
     </section>
 
-    <section id="articles" class="articles">
+    <section id="articles" class="articles section-offset">
       <div class="container">
         <h2 class="section-title articles-title">Articles</h2>
-        <ul class="articles-list">
+        <ul class="articles-list list-reset flex">
           <li class="articles-item">
-            <article class="blog-preview">
+            <article class="blog-preview flex">
               <img src="image/blog-1.jpg" alt="Blog photo 1" class="blog-preview-image" />
+              <div class="blog-preview-text">
+                <time datetime="2025-06-11 01:30" class="blog-preview-time">
+                  15 Nov 2021
+                </time>
+                <h3 class="blog-preview-title">Jurisdiction</h3>
+                <p class="blog-preview-descr">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy
+                </p>
+              </div>
             </article>
-            <div class="blog-preview-text">
-              <time datetime="2025-06-11 01:30" class="blog-preview-time">
-                15 Nov 2021
-              </time>
-              <h3 class="blog-preview-title">Jurisdiction</h3>
-              <p class="blog-preview-descr">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam nonummy
-              </p>
-            </div>
           </li>
-          <li class="articles-item">
-            <article class="blog-preview">
+          <li class="articles-item flex">
+            <article class="blog-preview flex">
               <img src="image/blog-2.jpg" alt="Blog photo 2" class="blog-preview-image" />
+              <div class="blog-preview-text">
+                <time datetime="2025-06-11 01:30" class="blog-preview-time">
+                  29 Nov 2021
+                </time>
+                <h3 class="blog-preview-title">Rights and obligations</h3>
+                <p class="blog-preview-descr">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy
+                </p>
+              </div>
             </article>
-            <div class="blog-preview-text">
-              <time datetime="2025-06-11 01:30" class="blog-preview-time">
-                29 Nov 2021
-              </time>
-              <h3 class="blog-preview-title">Rights and obligations</h3>
-              <p class="blog-preview-descr">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam nonummy
-              </p>
-            </div>
           </li>
-          <li class="articles-item">
-            <article class="blog-preview">
+          <li class="articles-item flex">
+            <article class="blog-preview flex">
               <img src="image/blog-3.jpg" alt="Blog photo 3" class="blog-preview-image" />
+              <div class="blog-preview-text">
+                <time datetime="2025-06-11 01:30" class="blog-preview-time">
+                  28 Nov 2021
+                </time>
+                <h3 class="blog-preview-title">Consulting</h3>
+                <p class="blog-preview-descr">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy
+                </p>
+              </div>
             </article>
-            <div class="blog-preview-text">
-              <time datetime="2025-06-11 01:30" class="blog-preview-time">
-                28 Nov 2021
-              </time>
-              <h3 class="blog-preview-title">Consulting</h3>
-              <p class="blog-preview-descr">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam nonummy
-              </p>
+          </li>
+          <li class="articles-item flex">
+            <article class="blog-preview flex">
+              <img src="image/blog-4.jpg" alt="Blog photo 4" class="blog-preview-image" />
+              <div class="blog-preview-text">
+                <time datetime="2025-06-11 01:30" class="blog-preview-time">
+                  11 Dec 2021
+                </time>
+                <h3 class="blog-preview-title">Contractors</h3>
+                <p class="blog-preview-descr">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy
+                </p>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="clients" class="clients section-offset">
+      <div class="container">
+        <h2 class="section-title clients-title">Clients</h2>
+        <ul class="clients-list list-reset flex">
+          <li class="clients-item flex">
+            <p class="clients-item-descr">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Assumenda aperiam quod a suscipit porro fuga eveniet. Ea suscipit,
+              voluptatem in reprehenderit dolores exercitationem aspernatur unde
+              quis non quaerat animi explicabo.
+            </p>
+            <div class="clients-user flex">
+              <div class="clients-avatar">
+                <img src="image/client-1.jpg" alt="John Armstrong" class="clients-avatar" />
+              </div>
+              <div class="clients-text">
+                <div class="clients-name">John Armstrong</div>
+                <span class="clients-post"> Customer </span>
+              </div>
             </div>
           </li>
-          <li class="articles-item">
-            <article class="blog-preview">
-              <img src="image/blog-4.jpg" alt="Blog photo 4" class="blog-preview-image" />
-            </article>
-            <div class="blog-preview-text">
-              <time datetime="2025-06-11 01:30" class="blog-preview-time">
-                11 Dec 2021
-              </time>
-              <h3 class="blog-preview-title">Contractors</h3>
-              <p class="blog-preview-descr">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam nonummy
-              </p>
+          <li class="clients-item flex">
+            <p class="clients-item-descr">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Assumenda aperiam quod a suscipit porro fuga eveniet. Ea suscipit,
+              voluptatem in reprehenderit dolores exercitationem aspernatur unde
+              quis non quaerat animi explicabo.
+            </p>
+            <div class="clients-user flex">
+              <div class="clients-avatar">
+                <img src="image/client-2.jpg" alt="Elizabeth Martin" class="clients-avatar" />
+              </div>
+              <div class="clients-text">
+                <div class="clients-name">Elizabeth Martin</div>
+                <span class="clients-post"> Customer </span>
+              </div>
+            </div>
+          </li>
+          <li class="clients-item flex">
+            <p class="clients-item-descr">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Assumenda aperiam quod a suscipit porro fuga eveniet. Ea suscipit,
+              voluptatem in reprehenderit dolores exercitationem aspernatur unde
+              quis non quaerat animi explicabo.
+            </p>
+            <div class="clients-user flex">
+              <div class="clients-avatar">
+                <img src="image/client-3.jpg" alt="Robin Soutby" class="clients-avatar" />
+              </div>
+              <div class="clients-text">
+                <div class="clients-name">Robin Soutby</div>
+                <span class="clients-post"> Customer </span>
+              </div>
             </div>
           </li>
         </ul>
       </div>
     </section>
 
-    <section id="clients" class="clients">
-      <h2 class="section-title clients-title">Clients</h2>
-      <ul class="clients-list">
-        <li class="clients-item">
-          <p class="clients-item-descr">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Assumenda aperiam quod a suscipit porro fuga eveniet. Ea suscipit,
-            voluptatem in reprehenderit dolores exercitationem aspernatur unde
-            quis non quaerat animi explicabo.
-          </p>
-          <div class="clients-user">
-            <div class="clients-avatar">
-              <img src="image/client-1.jpg" alt="John Armstrong" class="clients-avatar" />
-            </div>
-            <div class="clients-text">
-              <div class="clients-name">John Armstrong</div>
-              <span class="clients-post"> Customer </span>
-            </div>
-          </div>
-        </li>
-        <li class="clients-item">
-          <p class="clients-item-descr">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Assumenda aperiam quod a suscipit porro fuga eveniet. Ea suscipit,
-            voluptatem in reprehenderit dolores exercitationem aspernatur unde
-            quis non quaerat animi explicabo.
-          </p>
-          <div class="clients-user">
-            <div class="clients-avatar">
-              <img src="image/client-2.jpg" alt="Elizabeth Martin" class="clients-avatar" />
-            </div>
-            <div class="clients-text">
-              <div class="clients-name">Elizabeth Martin</div>
-              <span class="clients-post"> Customer </span>
-            </div>
-          </div>
-        </li>
-        <li class="clients-item">
-          <p class="clients-item-descr">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Assumenda aperiam quod a suscipit porro fuga eveniet. Ea suscipit,
-            voluptatem in reprehenderit dolores exercitationem aspernatur unde
-            quis non quaerat animi explicabo.
-          </p>
-          <div class="clients-user">
-            <div class="clients-avatar">
-              <img src="image/client-3.jpg" alt="Robin Soutby" class="clients-avatar" />
-            </div>
-            <div class="clients-text">
-              <div class="clients-name">Robin Soutby</div>
-              <span class="clients-post"> Customer </span>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </section>
-
-    <section id="contacts" class="contacts">
+    <section id="contacts" class="contacts section-offset">
       <div class="container">
         <h2 class="section-title contacts-title">Contacts</h2>
         <address class="contacts-address">
-          <ul class="contacts-list">
-            <li class="contacts-item">
+          <ul class="contacts-list list-reset flex">
+            <li class="contacts-item flex">
               <strong class="contacts-item-caption"> Visit us </strong>
               <p class="contacts-item-text">
                 Duis autem vel eum iriure dolor in&nbsp;hendrerit
                 in&nbsp;vulputate velit.
               </p>
             </li>
-            <li class="contacts-item">
+            <li class="contacts-item flex">
               <strong class="contacts-item-caption"> Call us </strong>
               <a href="tel:+79876543210" class="contacts-item-link">
                 +7 (987) 654-32-10
@@ -288,7 +292,7 @@
                 +7 (123) 456-78-90
               </a>
             </li>
-            <li class="contacts-item">
+            <li class="contacts-item flex">
               <strong class="contacts-item-caption"> Email us </strong>
               <a href="mailto:example@example.com" class="contacts-item-link">
                 example@example.com
@@ -305,7 +309,37 @@
     <section id="join-us" class="join-us"></section>
   </main>
 
-  <footer class="footer"></footer>
+  <footer class="footer">
+    <div class="container flex footer-container">
+      <div class="footer-left flex">
+        <a href="#" class="footer-logo">
+          <img src="image/logo.svg" alt="Logo">
+        </a>
+        <small class="footer-copy">
+          Copyright ©2017. All Right Reserved
+        </small>
+      </div>
+      <div class="footer-right flex">
+        <nav class="footer-nav">
+          <ul class="footer-list list-reset flex">
+            <li class="footer-item">
+              <a href="#" target="_blank" class="footer-link">About us</a></li>
+            <li class="footer-item">
+              <a href="#" target="_blank" class="footer-link">Contact us</a></li>
+            <li class="footer-item">
+              <a href="#" target="_blank" class="footer-link">Privacy Policy</a></li>
+            <li class="footer-item">
+              <a href="#" target="_blank" class="footer-link">Terms Condition</a></li>
+          </ul>
+        </nav>
+        <ul class="social list-reset flex">
+          <li class="social-item"><a href="#" class="social-link social-link-vk"></a></li>
+          <li class="social-item"><a href="#" class="social-link social-link-linkedin"></a></li>
+          <li class="social-item"><a href="#" class="social-link social-link-mail"></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
