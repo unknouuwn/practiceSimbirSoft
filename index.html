@@ -5,13 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lagoona</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <header class="header">
-    <div class="container">
+    <div class="container flex header-container">
       <a href="" class="header-logo">
-        <img src="image/logo.svg" alt="Logo" class="header-logo">
+        <img src="image/logo.svg" alt="Лагуна • Сеть отелей" class="header-logo">
       </a>
       <address class="contact-address">
         <a href="tel:+74953225448" class="header-contact-link">
@@ -24,8 +26,8 @@
       </a>
     </div>
     <div class="container">
-      <nav class="header-nav">
-        <ul class="header-list">
+      <nav class="header-nav flex">
+        <ul class="list-reset header-list flex">
           <li class="header-list-item">
             <a href="#about-us" class="header-link">
               О&nbsp;нас
@@ -57,90 +59,93 @@
             </a>
           </li>
         </ul>
+        <button class="btn-reset btn want-tour">
+          Хочу тур
+        </button>
+        <button class="btn-reset btn callback">
+          Обратный звонок
+        </button>
       </nav>
-      <button class="btn want-tour">
-        Хочу тур
-      </button>
-      <button class="btn callback">
-        Обратный звонок
-      </button>
     </div>
   </header>
 
   <main class="main">
-    <section class="special-offer">
+    <section class="special-offer section-offset">
       <div class="container">
         <h2 class="section-title">
           Спецпредложение
         </h2>
-        <div class="special-offer-tour">
-          <div class="special-tour-card">
-            <img src="image/special-offer-card-1.jpg" alt="Карточка 1" class="special-offer-image">
-            <h3 class="special-title tour-title">
-              Мальдивские острова
+        <div class="special-offer-containter flex">
+          <div class="special-offer-tour flex">
+            <div class="special-tour-card">
+              <img src="image/special-offer-card-1.jpg" alt="Карточка 1" class="special-offer-image">
+              <h3 class="special-title tour-title">
+                Мальдивские острова
+              </h3>
+              <p class="special-price tour-price">
+                от&nbsp;55&nbsp;000&nbsp;₽
+              </p>
+              <a href="#" class="deploy-item special-offer-deploy">
+                Подробнее
+                <!-- Иконка в background -->
+              </a>
+            </div>
+            <div class="special-tour-card">
+              <img src="image/special-offer-card-2.jpg" alt="Карточка 2" class="special-offer-image">
+              <h3 class="special-title tour-title">
+                Горящий тур на остров Крит
+              </h3>
+              <p class="special-price tour-price">
+                от&nbsp;30&nbsp;000&nbsp;₽
+              </p>
+              <a href="#" class="deploy-item special-offer-deploy">
+                Подробнее
+                <!-- Иконка в background -->
+              </a>
+            </div>
+          </div>
+          <div class="special-offer-apartment">
+            <img src="image/special-offer-card-3.jpg" alt="Карточка 3" class="special-offer-image">
+            <h3 class="special-title apartment-title">
+              Номера категории люкс
             </h3>
-            <p class="special-price tour-price">
-              от&nbsp;55&nbsp;000&nbsp;₽
+            <p class="special-price apartment-price">
+              от&nbsp;5&nbsp;000&nbsp;₽
             </p>
             <a href="#" class="deploy-item special-offer-deploy">
               Подробнее
               <!-- Иконка в background -->
             </a>
           </div>
-          <div class="special-tour-card">
-            <img src="image/special-offer-card-2.jpg" alt="Карточка 2" class="special-offer-image">
-            <h3 class="special-title tour-title">
-              Горящий тур на остров Крит
-            </h3>
-            <p class="special-price tour-price">
-              от&nbsp;30&nbsp;000&nbsp;₽
-            </p>
-            <a href="#" class="deploy-item special-offer-deploy">
-              Подробнее
-              <!-- Иконка в background -->
-            </a>
-          </div>
-        </div>
-        <div class="special-offer-apartment">
-          <img src="image/special-offer-card-3.jpg" alt="Карточка 3" class="special-offer-image">
-          <h3 class="special-title apartment-title">
-            Номера категории люкс
-          </h3>
-          <p class="special-price apartment-price">
-            от&nbsp;5&nbsp;000&nbsp;₽
-          </p>
-          <a href="#" class="deploy-item special-offer-deploy">
-            Подробнее
-            <!-- Иконка в background -->
-          </a>
         </div>
       </div>
     </section>
 
-    <section id="about-us" class="about-us">
+    <section id="about-us" class="about-us section-offset">
       <div class="container">
         <h2 class="section-title">
           О нас
         </h2>
-
-        <p class="about-descr">
-          Идейные соображения высшего порядка, а&nbsp;также сложившаяся структура организации влечёт за&nbsp;собой
-          процесс внедрения и&nbsp;модернизации системы обучения кадров, соответствует насущным потребностям. Идейные
-          соображения высшего порядка, а&nbsp;также дальнейшее развитие различных форм деятельности представляет собой
-          интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Равным образом
-          сложившаяся структура организации требуют определения и&nbsp;уточнения существенных финансовых
-          и&nbsp;административных условий.
-        </p>
+        <div class="about-container">
+          <p class="about-descr">
+            Идейные соображения высшего порядка, а&nbsp;также сложившаяся структура организации влечёт за&nbsp;собой
+            процесс внедрения и&nbsp;модернизации системы обучения кадров, соответствует насущным потребностям. Идейные
+            соображения высшего порядка, а&nbsp;также дальнейшее развитие различных форм деятельности представляет собой
+            интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Равным образом
+            сложившаяся структура организации требуют определения и&nbsp;уточнения существенных финансовых
+            и&nbsp;административных условий.
+          </p>
+        </div>
       </div>
     </section>
 
-    <section id="services" class="services">
+    <section id="services" class="services section-offset">
       <div class="container">
         <h2 class="section-title">
           Услуги
         </h2>
 
-        <ul class="services-list">
+        <ul class="list-reset services-list flex">
           <li class="services-list-item">
             <img src="image/sevrices-card-1.jpg" alt="Карточка 1" class="services-image">
             <div class="services-card-content">
@@ -201,12 +206,12 @@
       </div>
     </section>
 
-    <section id="#advantages" class="advantages">
+    <section id="#advantages" class="advantages section-offset">
       <div class="container">
         <h2 class="section-title">
           Преимущества
         </h2>
-        <ul class="advantages-list">
+        <ul class="list-reset advantages-list flex">
           <li class="advantages-list-item">
             <img src="image/advantages-icon-1.svg" alt="Преимущество 1" class="advantages-item-icon">
             <p class="advantages-item-descr">
@@ -259,12 +264,12 @@
       </div>
     </section>
 
-    <section id="#location" class="location">
+    <section id="#location" class="location section-offset">
       <div class="container">
         <h2 class="section-title">
           Размещение
         </h2>
-        <ul class="location-list">
+        <ul class="list-reset location-list flex">
           <li class="location-list-item">
             <img src="image/location-image-1.jpg" alt="Отель 1" class="location-image">
             <p class="location-item-price">
@@ -283,7 +288,7 @@
             <p class="location-item-place">
               Барселона, Испания
             </p>
-            <button class="btn hotel-rooms">
+            <button class="btn-reset btn hotel-rooms">
               Номера
             </button>
           </li>
@@ -305,7 +310,7 @@
             <p class="location-item-place">
               Барселона, Испания
             </p>
-            <button class="btn hotel-rooms">
+            <button class="btn-reset btn hotel-rooms">
               Номера
             </button>
           </li>
@@ -327,7 +332,7 @@
             <p class="location-item-place">
               Барселона, Испания
             </p>
-            <button class="btn hotel-rooms">
+            <button class="btn-reset btn hotel-rooms">
               Номера
             </button>
           </li>
@@ -349,7 +354,7 @@
             <p class="location-item-place">
               Барселона, Испания
             </p>
-            <button class="btn hotel-rooms">
+            <button class="btn-reset btn hotel-rooms">
               Номера
             </button>
           </li>
@@ -371,7 +376,7 @@
             <p class="location-item-place">
               Барселона, Испания
             </p>
-            <button class="btn hotel-rooms">
+            <button class="btn-reset btn hotel-rooms">
               Номера
             </button>
           </li>
@@ -393,7 +398,7 @@
             <p class="location-item-place">
               Барселона, Испания
             </p>
-            <button class="btn hotel-rooms">
+            <button class="btn-reset btn hotel-rooms">
               Номера
             </button>
           </li>
@@ -415,7 +420,7 @@
             <p class="location-item-place">
               Барселона, Испания
             </p>
-            <button class="btn hotel-rooms">
+            <button class="btn-reset btn hotel-rooms">
               Номера
             </button>
           </li>
@@ -437,18 +442,18 @@
             <p class="location-item-place">
               Барселона, Испания
             </p>
-            <button class="btn hotel-rooms">
+            <button class="btn-reset btn hotel-rooms">
               Номера
             </button>
           </li>
+          <li class="location-list-item location-all">
+            <img src="image/location-image-all.jpg" alt="Посмотреть все" class="location-image-all">
+            <a href="#" class="deploy-item location-hotel-all">
+              Посмотреть все варианты
+              <!-- Иконка в background -->
+            </a>
+          </li>
         </ul>
-        <div class="location-all">
-          <img src="image/location-image-all.jpg" alt="Посмотреть все варианты отелей" class="location-image-all">
-          <a href="#" class="deploy-item location-hotel-all">
-            Посмотреть все варианты
-            <!-- Иконка в background -->
-          </a>
-        </div>
       </div>
     </section>
   </main>

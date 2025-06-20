@@ -1,0 +1,194 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  min-width: 1200px;
+  font-family: 'font', sans-serif;
+}
+
+/* global */
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section-title {
+  margin: 0;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+
+.section-descr {
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.section-offset {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+/* header */
+.header {
+  padding: 30px 0;
+}
+
+.header-container {
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header-nav {
+  align-items: center;
+}
+
+.header-logo {
+  margin-right: 40px;
+}
+
+.header-cabinet {
+  margin-left: auto;
+}
+
+.contact-address {
+  font-style: normal;
+}
+
+.header-list-item:not(:last-child) {
+  margin-right: 45px;
+}
+
+.want-tour {
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+/* special-offer */
+.special-offer-tour {
+  flex-direction: column;
+}
+
+.special-price {
+  margin: 0;
+  display: inline-block;
+  /* margin-bottom: 47px; */
+}
+
+.special-title {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.special-tour-card {
+  min-width: 573px;
+  margin-right: 24px;
+  outline: 1px solid red;
+}
+
+.special-offer-apartment {
+  min-width: 573px;
+  outline: 1px solid red;
+}
+
+.special-tour-card:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+/* about-us */
+.about-container {
+  width: 888px;
+  outline: 1px solid red;
+}
+
+/* services */
+.services-list {
+  flex-wrap: wrap;
+}
+
+.services-list-item {
+  width: 573px;
+  margin-bottom: 24px;
+  outline: 1px solid red;
+}
+
+.services-list-item:not(:nth-child(2n)) {
+  margin-right: 24px;
+}
+
+.services-title-deploy {
+  margin: 0;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.services-card-descr {
+  margin: 0;
+}
+
+/* advantages */
+.advantages-list {
+  flex-wrap: wrap;
+}
+
+.advantages-list-item {
+  width: 276px;
+  margin-bottom: 22px;
+  outline: 1px solid red;
+}
+
+.advantages-list-item:not(:nth-child(4n)) {
+  margin-right: 22px;
+}
+
+/* location */
+.location-list {
+  flex-wrap: wrap;
+}
+
+.location-list-item {
+  width: 374px;
+  margin-bottom: 24px;
+  outline: 1px solid red;
+}
+
+.location-list-item:not(:nth-child(3n)) {
+  margin-right: 24px;
+}
+
+.location-all {
+  width: 374px;
+}
